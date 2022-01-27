@@ -7,12 +7,18 @@ body{
     width: 98%;
     height: 20%;
     padding: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+
 
     border-radius: 10px;
-    border:grey dashed 1px;
+    border:grey  1px;
+    box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+-webkit-box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+-moz-box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
     
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     align-items: center;
     justify-content: space-around;
 
@@ -44,6 +50,121 @@ body{
 
     font-family: 'PT Sans', sans-serif;
 
+}
+
+.contenedorPresentacion{
+
+     width: 95%;
+     height:40%;
+     border-radius: 10px;
+     margin: 0 auto;
+     
+     padding: 10px;
+
+     background-color: rgb(206, 201, 201);
+     box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+-webkit-box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+-moz-box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+
+}
+
+
+.texto{
+    width:50%;
+    height: 90%;
+    overflow: hidden;
+    margin: 10px;
+    
+    border-radius: 10px;
+    border-right: 10px;
+    
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 110%;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verMas{
+    
+    width: 30%;
+    height: 20%;
+    overflow: hidden;
+    
+    
+    border: rgb(160, 147, 147) solid 2px;
+    border-radius: 2px;
+
+    background-color:#00B88D;
+    color: white;
+    font-size: 80%;
 
 
 }
+
+.verMas:hover{
+    background-color:#dd8ab3;
+    border:rgb(189, 109, 255);
+    
+}
+
+.imagen{
+   width: 50%;
+   height: 90%;
+   padding: 50px;
+   margin: 0 auto;
+  
+  
+}
+
+.foto{
+    width:  80%;
+    height: 100%;
+    
+    text-align: center;
+    border-radius:50%;
+    border-left: 50px;
+}
+
+.informacion{
+     width: 95%;
+     height:30%;
+     border-radius: 10px;
+     margin: 0 auto;
+     padding: 10px;
+     overflow: hidden;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+ 
+    background-color: rgb(193, 207, 193);
+    box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+-webkit-box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+-moz-box-shadow: -2px -2px 60px 5px rgba(8,7,7,0.58);
+    
+}
+
+.pInformacion{
+    text-align: center;
+    color: black;
+    font-size: 110%;
+
+    margin: 80px;
+}
+
